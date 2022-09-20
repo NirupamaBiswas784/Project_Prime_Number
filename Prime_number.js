@@ -1,16 +1,19 @@
-
-let num=13;
-    function primeLoopCheck(num){
-  
-	for(let i=3;i<=num;i++){
-	    let count=0;
-	    for(let k=0;k<=i;k++){
-	        if(i%k){
-	            count++;
-	        }
-	    }
-	    if(count==2){
-	        console.log(i);
-	    }
-	}
+function prime(num){
+  let factors=0;
+  for(i=1;i<=num;i++){
+     if(num%i==0){  
+        factors++;
+      }
+  }
+    if(factors==2){
+      return true;
+    }
+    return false;
+   
+}
+  let answer=prime(14);
+ if(answer==true){
+   console.log("prime");
+   }else{
+   console.log("not prime");  
 }
