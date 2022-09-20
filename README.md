@@ -1,1 +1,1 @@
-# Project_Prime_Number
+# git_practice_assignmnet
