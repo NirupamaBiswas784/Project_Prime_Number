@@ -1,7 +1,7 @@
-function prime(num){
+function prime(number){
   let factors=0;
-  for(i=1;i<=num;i++){
-     if(num%i==0){  
+  for(i=1;i<=number;i++){
+     if(number%i==0){  
         factors++;
       }
   }
